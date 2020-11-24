@@ -155,15 +155,8 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor
-
-ifeq ($(ARROW_GAPPS), true)
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V2
-else
-PRODUCT_PACKAGES += \
-    Snap
-endif
+    vendor.qti.hardware.camera.postproc@1.0.vendor \
+    GoogleCameraGo
 
 # Component overrides
 PRODUCT_COPY_FILES += \
