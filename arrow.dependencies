@@ -4,7 +4,15 @@
     "target_path": "device/xiaomi/extras"
   },
   {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
     "repository": "android_kernel_xiaomi_gauguin",
     "target_path": "kernel/xiaomi/gauguin"
+  },
+  {
+    "repository": "android_vendor_xiaomi_gauguin",
+    "target_path": "vendor/xiaomi/gauguin"
   }
 ]
