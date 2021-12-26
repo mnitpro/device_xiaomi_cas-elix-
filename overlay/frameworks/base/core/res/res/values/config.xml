@@ -501,4 +501,8 @@
    <!-- Does the battery LED support multiple colors?
      Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
+    
+    <!-- If true, the screen can be rotated via the accelerometer in all 4
+         rotations as the default behavior. -->
+    <bool name="config_allowAllRotations">true</bool>
 </resources>
