@@ -7,3 +7,11 @@ audio.sys.noisy.broadcast.delay=500
 audio.sys.offload.pstimeout.secs=3
 audio.sys.routing.latency=0
 ro.af.client_heap_size_kbyte=7168
+
+# Elixir Stuff
+org.elixir.device.name=gauguin
+ro.elixir.device.name=gauguin
+ro.elixir.device=gauguin
+ro.elixir.maintainer=Hridaya & Yasin
+ro.elixir.maintainer.username=itsmethekidreborn
+ro.elixir.group.url=t.me/Elixir_Discussion
