@@ -115,6 +115,9 @@ on charger
     setprop vendor.usb.controller a600000.dwc3
     setprop sys.usb.configfs 1
 
+# Disable serial console
+    setprop init.svc.console stopped
+
 #pd-mapper
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
