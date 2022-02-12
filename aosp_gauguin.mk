@@ -20,7 +20,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit Project Elixir Props
-Elixir_MAINTAINER := Hridaya & Yasin
+Elixir_MAINTAINER := Hridaya
 CUSTOM_BUILD_TYPE=OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ACORE := false
