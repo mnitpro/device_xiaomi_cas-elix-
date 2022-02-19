@@ -14,6 +14,9 @@ persist.dbg.wfc_avail_ovr=1
 mm.enable.smoothstreaming=true
 ro.media.recorder-max-base-layer-fps=60
 
+# Recovery
+persist.sys.recovery_update=true
+
 # RIL
 persist.vendor.radio.report_codec=1
 ril.subscription.types=NV,RUIM
